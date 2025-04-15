@@ -1,0 +1,25 @@
+[project]
+name = "yoga-poses-recommender-python"
+version = "0.1.0"
+description = "A Flask Web Application that demonstrates how to do Vector Search on a Yoga Poses database in Firestore"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=3.2.0",
+    "flask>=3.1.0",
+    "google-cloud-aiplatform>=1.78.0",
+    "google-cloud-texttospeech>=2.24.0",
+    "langchain-community>=0.3.15",
+    "langchain-core>=0.3.31",
+    "langchain-google-community>=2.0.4",
+    "langchain-google-firestore>=0.5.0",
+    "langchain-google-vertexai>=2.0.7",
+    "pydantic-settings>=2.7.1",
+    "pyyaml>=6.0.2",
+    "tenacity>=9.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.9.3",
+]
